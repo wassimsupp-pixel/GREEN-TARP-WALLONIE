@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Georgia", serif;
+  
+  --color-gtw-green: #1D5C3D;
+  --color-gtw-light: #F5F5F0;
+  --color-gtw-ink: #1D3C2D;
+  --color-gtw-olive: #5A5A40;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
